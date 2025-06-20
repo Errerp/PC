@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\Максим\source\repos\lab3\main.cpp(7,9): warning C4081: требуется "идентификатор"; обнаружен "inline"
+C:\Users\Максим\source\repos\lab3\main.cpp(15,42): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\Максим\source\repos\lab3\main.cpp(203,17): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\Максим\source\repos\lab3\main.cpp(224,45): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\Максим\source\repos\lab3\main.cpp(267,90): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\Максим\source\repos\lab3\main.cpp(359,13): warning C4129: "0xd0": нераспознанная escape-последовательность символов
+  lab3.vcxproj -> C:\Users\Максим\source\repos\lab3\Debug\lab3.exe

@@ -1,0 +1,107 @@
+﻿  main.cpp
+C:\Users\Максим\source\repos\lab3\main.cpp(3,9): warning C4081: требуется "идентификатор"; обнаружен "inline"
+C:\Users\Максим\source\repos\lab3\main.cpp(49,5): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Users\Максим\source\repos\lab3\main.cpp(50,9): error C2065: mov: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(50,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ebx"
+C:\Users\Максим\source\repos\lab3\main.cpp(50,13): error C2065: ebx: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(51,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+C:\Users\Максим\source\repos\lab3\main.cpp(51,9): error C2065: mov: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(51,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ecx"
+C:\Users\Максим\source\repos\lab3\main.cpp(51,13): error C2065: ecx: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(52,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "finit"
+C:\Users\Максим\source\repos\lab3\main.cpp(52,9): error C2065: finit: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(53,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "fldz"
+C:\Users\Максим\source\repos\lab3\main.cpp(53,9): error C2065: fldz: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(54,13): error C2065: edx: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(54,18): error C2065: edx: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(56,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "process_loop"
+C:\Users\Максим\source\repos\lab3\main.cpp(57,9): error C2065: fld: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(57,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "dword"
+C:\Users\Максим\source\repos\lab3\main.cpp(57,13): error C2065: dword: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(57,19): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ptr"
+C:\Users\Максим\source\repos\lab3\main.cpp(57,19): error C2065: ptr: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(57,23): error C2065: ebx: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(58,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ftst"
+C:\Users\Максим\source\repos\lab3\main.cpp(58,13): error C2065: ftst: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(59,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "fstsw"
+C:\Users\Максим\source\repos\lab3\main.cpp(59,17): error C2065: fstsw: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(59,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ax"
+C:\Users\Максим\source\repos\lab3\main.cpp(59,23): error C2065: ax: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(60,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "sahf"
+C:\Users\Максим\source\repos\lab3\main.cpp(60,17): error C2065: sahf: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(61,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jnb"
+C:\Users\Максим\source\repos\lab3\main.cpp(61,17): error C2065: jnb: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(61,21): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "not_negative"
+C:\Users\Максим\source\repos\lab3\main.cpp(61,21): error C2065: not_negative: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(64,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "inc"
+C:\Users\Максим\source\repos\lab3\main.cpp(64,17): error C2065: inc: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(64,21): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "edx"
+C:\Users\Максим\source\repos\lab3\main.cpp(64,21): error C2065: edx: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(65,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cmp"
+C:\Users\Максим\source\repos\lab3\main.cpp(65,17): error C2065: cmp: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(65,21): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "edx"
+C:\Users\Максим\source\repos\lab3\main.cpp(65,21): error C2065: edx: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(66,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jne"
+C:\Users\Максим\source\repos\lab3\main.cpp(66,17): error C2065: jne: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(66,21): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "not_first"
+C:\Users\Максим\source\repos\lab3\main.cpp(66,21): error C2065: not_first: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(69,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "fstp"
+C:\Users\Максим\source\repos\lab3\main.cpp(69,17): error C2065: fstp: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(69,22): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "st"
+C:\Users\Максим\source\repos\lab3\main.cpp(69,22): error C3861: st: идентификатор не найден
+C:\Users\Максим\source\repos\lab3\main.cpp(70,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jmp"
+C:\Users\Максим\source\repos\lab3\main.cpp(70,17): error C2065: jmp: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(70,21): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "next_element"
+C:\Users\Максим\source\repos\lab3\main.cpp(70,21): error C2065: next_element: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(72,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "not_first"
+C:\Users\Максим\source\repos\lab3\main.cpp(74,13): error C2065: fsubp: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(74,19): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "st"
+C:\Users\Максим\source\repos\lab3\main.cpp(74,19): error C3861: st: идентификатор не найден
+C:\Users\Максим\source\repos\lab3\main.cpp(74,26): error C3861: st: идентификатор не найден
+C:\Users\Максим\source\repos\lab3\main.cpp(75,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jmp"
+C:\Users\Максим\source\repos\lab3\main.cpp(75,17): error C2065: jmp: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(75,21): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "next_element"
+C:\Users\Максим\source\repos\lab3\main.cpp(75,21): error C2065: next_element: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(77,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "not_negative"
+C:\Users\Максим\source\repos\lab3\main.cpp(78,13): error C2065: fstp: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(78,18): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "st"
+C:\Users\Максим\source\repos\lab3\main.cpp(78,18): error C3861: st: идентификатор не найден
+C:\Users\Максим\source\repos\lab3\main.cpp(80,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "next_element"
+C:\Users\Максим\source\repos\lab3\main.cpp(81,17): error C2065: add: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(81,21): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ebx"
+C:\Users\Максим\source\repos\lab3\main.cpp(81,21): error C2065: ebx: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(82,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "loop"
+C:\Users\Максим\source\repos\lab3\main.cpp(82,17): error C2065: loop: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(82,22): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "process_loop"
+C:\Users\Максим\source\repos\lab3\main.cpp(82,22): error C2065: process_loop: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(85,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "fstp"
+C:\Users\Максим\source\repos\lab3\main.cpp(85,17): error C2065: fstp: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(85,22): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "fpu_diff"
+C:\Users\Максим\source\repos\lab3\main.cpp(86,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "fwait"
+C:\Users\Максим\source\repos\lab3\main.cpp(86,17): error C2065: fwait: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(87,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+C:\Users\Максим\source\repos\lab3\main.cpp(88,5): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Users\Максим\source\repos\lab3\main.cpp(89,9): error C2065: mov: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(89,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ebx"
+C:\Users\Максим\source\repos\lab3\main.cpp(89,13): error C2065: ebx: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(90,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+C:\Users\Максим\source\repos\lab3\main.cpp(90,9): error C2065: mov: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(90,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ecx"
+C:\Users\Максим\source\repos\lab3\main.cpp(90,13): error C2065: ecx: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(91,13): error C2065: edx: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(91,18): error C2065: edx: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(93,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "finit"
+C:\Users\Максим\source\repos\lab3\main.cpp(93,9): error C2065: finit: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(94,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "fld"
+C:\Users\Максим\source\repos\lab3\main.cpp(94,9): error C2065: fld: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(94,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "fpu_diff"
+C:\Users\Максим\source\repos\lab3\main.cpp(95,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "fabs"
+C:\Users\Максим\source\repos\lab3\main.cpp(97,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "modify_loop"
+C:\Users\Максим\source\repos\lab3\main.cpp(95,9): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\Максим\source\repos\lab3\main.cpp(98,9): error C2065: test: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(98,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "edx"
+C:\Users\Максим\source\repos\lab3\main.cpp(98,14): error C2065: edx: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(99,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jz"
+C:\Users\Максим\source\repos\lab3\main.cpp(99,13): error C2065: jz: необъявленный идентификатор
+C:\Users\Максим\source\repos\lab3\main.cpp(99,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "even_index"
+C:\Users\Максим\source\repos\lab3\main.cpp(99,16): error C1003: число ошибок превышает 100; остановка компиляции
