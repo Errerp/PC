@@ -1,0 +1,107 @@
+EMU8086 GENERATED LISTING. MACHINE CODE <- SOURCE.
+ 
+first_lab.com_ -- emu8086 assembler version: 4.08  
+ 
+[ 07.02.2025  --  20:04:36 ] 
+ 
+===================================================================================================
+[LINE]     LOC: MACHINE CODE                          SOURCE
+===================================================================================================
+ 
+[   1]        :                                       org 100h
+[   2]        :                                       ;    mov dx, 0xfffeh
+[   3]        :                                       ;    mov al, 80h
+[   4]        :                                       ;    out dx, al
+[   5]        :                                       
+[   6]    0100:                                       M:
+[   7]    0100: B3 40                                 mov bl, 40h
+[   8]    0102: B7 80                                 mov bh, 80h
+[   9]    0104: B9 01 00                              mov cx, 1
+[  10]        :                                       ;mov dx, 0xfffbh
+[  11]    0107: BA F9 FF                              mov dx,0x0fff9
+[  12]    010A: EC                                    in al, dx
+[  13]    010B: 3C 01                                 cmp al, 1
+[  14]    010D: 74 09                                 jz turnOn
+[  15]    010F: B9 00 00                              mov cx, 0
+[  16]    0112: A8 01                                 test al, 1
+[  17]    0114: 74 14                                 jz turnOff
+[  18]    0116: EB E8                                 jmp M
+[  19]        :                                       
+[  20]    0118:                                       turnOn:
+[  21]    0118: BA FA FF                              mov dx, 0xfffah
+[  22]        :                                       ;mov dx, 0x0fff8
+[  23]    011B: 8A C4                                 mov al, ah
+[  24]    011D: EE                                    out dx, al
+[  25]    011E: 80 FC FF                              cmp ah, 0x0ff
+[  26]    0121: 74 DD                                 je M
+[  27]    0123: 80 FC AA                              cmp ah, 0x0aa
+[  28]    0126: 72 14                                 jb chet
+[  29]    0128: EB 1F                                 jmp nechet
+[  30]        :                                       
+[  31]    012A:                                       turnOff:
+[  32]    012A: BA FA FF                              mov dx, 0xfffah
+[  33]        :                                       ;mov dx, 0x0fff8
+[  34]    012D: 8A C4                                 mov al, ah
+[  35]    012F: EE                                    out dx, al
+[  36]    0130: 80 FC 00                              cmp ah, 0
+[  37]    0133: 74 CB                                 je M
+[  38]    0135: 80 FC 55                              cmp ah, 0x055
+[  39]    0138: 76 0F                                 jbe nechet
+[  40]    013A: EB 00                                 jmp chet
+[  41]        :                                       
+[  42]    013C:                                       chet:
+[  43]    013C: 32 E7                                 xor ah, bh
+[  44]    013E: D0 EF D0 EF                           shr bh, 2
+[  45]        :                                       ;call delay
+[  46]    0142: 83 F9 01                              cmp cx, 1
+[  47]    0145: 74 D1                                 je turnOn
+[  48]    0147: 75 E1                                 jne turnOff
+[  49]        :                                       
+[  50]    0149:                                       nechet:
+[  51]    0149: 32 E3                                 xor ah, bl
+[  52]    014B: D0 EB D0 EB                           shr bl, 2
+[  53]        :                                       ;call delay2
+[  54]    014F: 83 F9 01                              cmp cx, 1
+[  55]    0152: 74 C4                                 je turnOn
+[  56]    0154: 75 D4                                 jne turnOff
+[  57]        :                                       
+[  58]    0156:                                       proc delay
+[  59]    0156: 51                                    push cx
+[  60]    0157: B9 64 00                              mov cx, 100
+[  61]    015A:                                       cyc1:
+[  62]    015A: 8B D1                                 mov dx, cx
+[  63]        :                                       ;mov cx, 0x10h
+[  64]    015C: B9 FF FF                              mov cx, 0x0ffff
+[  65]    015F:                                       cyc2:
+[  66]    015F: E2 FE                                 loop cyc2
+[  67]    0161: 8B CA                                 mov cx, dx
+[  68]    0163: E2 F5                                 loop cyc1
+[  69]    0165: 59                                    pop cx
+[  70]    0166: 32 ED                                 xor ch, ch
+[  71]    0168: C3                                    ret
+[  72]        :                                       delay endp
+[  73]        :                                       
+[  74]    0169:                                       proc delay2
+[  75]    0169: 51                                    push cx
+[  76]    016A: B9 C8 00                              mov cx, 200
+[  77]    016D:                                       cyc3:
+[  78]    016D: 8B D1                                 mov dx, cx
+[  79]        :                                       ;mov cx, 0x05h
+[  80]    016F: B9 FF FF                              mov cx, 0x0ffff
+[  81]    0172:                                       cyc4:
+[  82]    0172: E2 FE                                 loop cyc4
+[  83]    0174: 8B CA                                 mov cx, dx
+[  84]    0176: E2 F5                                 loop cyc3
+[  85]    0178: 59                                    pop cx
+[  86]    0179: 32 ED                                 xor ch, ch
+[  87]    017B: C3                                    ret
+[  88]        :                                       delay2 endp
+[  89]        :                                       
+ 
+===================================================================================================
+ 
+
+
+
+
+===================================================================================================
